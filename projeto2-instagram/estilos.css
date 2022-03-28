@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;     
+    font-family: 'Roboto', sans-serif;
+}
+
+.barra-topo{
+    width: 100%;  
+    height: 54px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+
+}
+
+.topo-mobile{
+    width: 100%;  
+    height: 54px; 
+    display: flex;
+    flex-direction: row;
+    
+    position:fixed;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    display: none;
+}
+
+.caixa{
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between; 
+}
+
+.logo {
+    width: 103px;
+    height: 29px;
+    padding-left: 10px;
+}
+
+.borda-vertical{
+    width: 1px;
+    height: 22px;
+    background: #DBDBDB;
+
+}
+
+.search {
+    width: 215px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-top: 10px;
+    padding-bottom: 15px;  
+    background: #FAFAFA;
+
+}
+
+.barra-topo div{
+    padding-top: 16px;
+}
+
+.topo-mobile div{
+    padding-top: 16px;
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.stories {
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 88px;
+    margin-bottom: 24px;
+    margin-left: 215px;
+    width: 614px;
+    height: 118px; 
+    overflow: hidden; 
+    position: relative;      
+}
+
+.forward-button {
+    color: #FFFFFF;
+    width: 32px;
+    height: 32px;
+    position:absolute;
+    top: 35px;
+    right: 2px;
+}
+
+.story {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18px;
+    padding-top: 10px;   
+}
+
+.container {
+
+    position: relative;
+}
+
+.foto-perfil {
+    width: 56px;
+    height: 56px;   
+}
+
+.story-background{
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    bottom: -2px;
+    left: -5px;
+}
+
+.profile-name p{
+   font-weight: 400px;
+   font-style: normal;
+   font-size: 12px;
+   text-align: center;
+   margin-top: 10px;
+       
+}
+
+.posts{
+    background: #FFFFFF;
+    width: 614px;
+    margin-left: 215px;
+    margin-bottom: 60px;
+    border: 1px solid #DBDBDB;
+    border-radius: 4px;
+}
+
+.posts div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+
+.post-author {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 17px;
+    justify-content: space-between;    
+
+}
+
+.post-author div{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+}
+
+.followers-pic{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    margin-right: 15px;
+
+}
+
+.post-likes {
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.liked-pic{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.container-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.post-actions {
+    height: 22px;
+    width: 22px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.sidebar {
+    width: 293px;
+    margin-left: 20px;
+    margin-top: 88px;
+}
+
+.username {
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 17px;
+    
+}
+
+.followers-name{
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.middle-up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.middle-down div{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-links{
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.icons {
+    height: 22px;
+    width: 22px;
+    padding-right: 20px;
+    
+}
+
+.icons-mobile {
+    height: 22px;
+    width: 22px;
+    padding-right: 20px;
+    padding-left: 20px;   
+}
+
+.font1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+}
+
+.font2{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    text-align: left;
+}
+
+.font3{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;  
+    line-height: 0.5px;
+}
+
+.font4{   
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+}
+
+.font5{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: right;
+}
+
+.font6 {
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+    text-align: left;
+}
+
+    
+.color{
+    color:  #979797;
+}
+
+.dark{
+   color: #262626;
+}
+
+.blau{
+    color: #139EF2;
+}
+
+.graylight {
+    color: #C7C7C7;
+ 
+}
+
+.pic{
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.follow {
+    margin-top: 15px;
+    margin-left: 90px;
+}
+
+.barra-inferior {
+    display: none;
+}
+
+
+@media (min-width:614px) and (max-width: 935px) {	
+
+    .principal{
+       justify-content: center;
+       padding-left: 30px;
+       padding-right: 30px;
+    }
+ 
+
+    .posts {
+        margin-left: 0px;
+        margin-right:0px;
+       
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .stories{
+        margin-left: 0px;
+        margin-right: 0px;
+        
+    }
+
+    .topo-mobile{
+        display: none;
+    }
+
+    .barra-inferior{
+        display: none;
+    }
+
+}
+
+/*MOBILE RESPONSIVO*/
+
+@media (max-width:614px){	
+
+    .principal{
+        width: 100%;
+     
+       
+    }
+
+    .posts {   
+        margin-left: 0px;
+        margin-right:0px;
+        width: 100%;
+       
+    }
+
+    .sidebar{
+        display: none;
+    }
+
+    .stories{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 50px;
+        width: 100%;
+        background-color: #fafafa      
+    }
+
+    .forward-button{
+        display: none;
+    }
+
+    .topo-mobile{
+        display:inline;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .barra-inferior {
+        display: inline;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .container-inferior{
+        width: 100%;
+        height: 54px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: #FFFFFF;
+        border: 1px solid #DBDBDB;   
+    }
+    
+    
+}
